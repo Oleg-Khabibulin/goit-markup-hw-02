@@ -1,0 +1,107 @@
+body{
+    background-color:#E5E5E5 ;
+    color: #212121;
+}
+.list{
+    list-style: none;
+}
+.heder{
+    background-color:#FFFFFF
+}
+
+/* site-nav */
+
+.heder-logo{
+    color: #212121 ;
+}
+.web{
+    color:#2196F3 ;
+}
+
+
+.heder-nav .heder-link{
+    color: #212121 ;
+}
+.heder-nav .heder-link:hover ,
+.site-nav .heder-link:focus{
+    color:#2196F3 ;
+}
+/* contact */
+
+.heder-contact .heder-link{
+    color: #212121;
+}
+.heder-contact .heder-link:hover ,
+.heder-contact .heder-link:focus{
+    color:#2196F3 ;
+}
+/* hero-page */
+.hero {
+    background-color: #2F303A ;
+    color:#FFFFFF ;
+}
+/* skills */
+.skills{
+    
+}
+.skills-title{
+    color: #212121 ;
+}
+.skills-text{
+    color: #757575 ;
+}
+/* content */
+.content{
+    color: #212121 ;
+}
+/* my-team */
+.team{
+    background-color: #F5F4FA ;
+}
+.team-text{
+    color:#757575 ;
+}
+/* footer */
+.footer{
+    background-color:#2F303A ;
+   
+}
+.footer-logo{
+    color: #FFFFFF;
+}
+.footer .web{
+    color #2196F3 ;  
+
+}
+.footer-adress{
+    color: #FFFFFF;
+}
+.footer-adress:hover,
+.footer-adress:focus{
+    color:#2196F3 ;
+}
+
+.footer-contact{
+    color:  rgba(255, 255, 255, 0.6) ;
+}
+.footer-contact:hover,
+.footer-contact:focus{
+    color:#2196F3 ;
+}
+
+
+/* 
+/*основной цвет текста #212121
+акцент #2196F3
+белый цвет  #FFFFFF
+вторичный цвет #757575 
+вспомогательный в ховере rgba(255, 255, 255, 0.6) 
+ЦВЕТА ФОНА
+цвет шапки #FFFFFF
+цвет героя #2F303A
+основной цвет #E5E5E5
+цвет команды #F5F4FA
+цвет футора #2F303A */
+/*  */
+
+
