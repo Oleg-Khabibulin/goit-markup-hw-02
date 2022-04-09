@@ -1,93 +1,267 @@
 body{
-    background-color:#E5E5E5 ;
+  font-family: Roboto, Tahoma , sans-serif;
     color: #212121;
 }
 .list{
-    list-style: none;
+     list-style: none;
 }
+:root{
+    --heder-first-color:#212121;
+    --heder-secondary-color:#757575;
+    --heder-accent-color:#2196F3 ;
+    --main-first-color:#212121;
+    --main-hero-color:#FFFFFF;
+    --main-secondary-color:#757575;
+    --main-btn-color:#FFFFFF;
+    --main-btn-accent-color:#2196F3 ;
+    --main-text-color: #757575;
+    --footer-first-color:#FFFFFF;
+    --footer-secondary-color:rgba(255, 255, 255, 0.6) ;
+    --footer-accent-color:#2196F3;
+
+}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
+
+.line{
+    text-decoration:none
+}
+
+
+/* <<<<<<<<<<<<<<<СТУДІЯ>>>>>>>>>>>>>>>>>.. */
+
+/* <<<<<<<<<<<<<<<ХЕДЕР>>>>>>>>>>>>>>>>>.. */
+
 .heder{
     background-color:#FFFFFF
+    
 }
 
-/* site-nav */
+/* <<<<<<<<<<<<<<<НАВІГАЦІЯ>>>>>>>>>>>>>>>>>.. */
 
 .heder-logo{
-    color: #212121 ;
+    color: var(--heder-main-color) ;
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
 }
 .web{
-    color:#2196F3 ;
+    color:var(--heder-accent-color);
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
 }
 
 
 .heder-nav .heder-link{
-    color: #212121 ;
+    color: var(--heder-main-color) ;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .heder-nav .heder-link:hover ,
-.site-nav .heder-link:focus{
-    color:#2196F3 ;
+.heder-nav .heder-link:focus{
+    color:var(--heder-accent-color);
 }
-/* contact */
+/* <<<<<<<<<<<<<<<КОНТАКТИ>>>>>>>>>>>>>>>>>.. */
 
 .heder-contact .heder-link{
-    color: #212121;
+    color: var(--heder-secondary-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14px;
+    letter-spacing: 0.02em; 
 }
 .heder-contact .heder-link:hover ,
 .heder-contact .heder-link:focus{
-    color:#2196F3 ;
+    color:var(--heder-accent-color);
 }
-/* hero-page */
+
+/* <<<<<<<<<<<<<<<ГЕРОЙ>>>>>>>>>>>>>>>>>.. */
+
 .hero {
     background-color: #2F303A ;
-    color:#FFFFFF ;
+    color:var(--main-hero-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-/* skills */
-.skills{
-    
+.hero-btn{
+    color: var(--main-hero-color);
+    background-color:var(--main-btn-accent-color) ;
+    font-family:Roboto, Tahoma , sans-serif;
+    cursor: pointer;
 }
+.hero-btn:hover{
+    color: var(--main-btn-accent-color);
+    background-color:var(--main-btn-color) ;
+    font-family:Roboto, Tahoma , sans-serif; 
+}
+/* <<<<<<<<<<<<<<<СКІЛИ>>>>>>>>>>>>>>>>>.. */
+
+
 .skills-title{
-    color: #212121 ;
+    color: var(--main-first-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;  
 }
 .skills-text{
-    color: #757575 ;
+    color: var(--main-secondary-color) ;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
 }
-/* content */
+/* <<<<<<<<<<<<<<< КОНТЕНТ>>>>>>>>>>>>>>>>>.. */
+
 .content{
-    color: #212121 ;
+    color: var(--main-first-color) ;
 }
-/* my-team */
+.content{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em; 
+}
+/* <<<<<<<<<<<<<<< КОМАНДА>>>>>>>>>>>>>>>>>.. */
+
 .team{
     background-color: #F5F4FA ;
 }
-.team-text{
-    color:#757575 ;
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em; 
 }
-/* footer */
+.team-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;     
+}
+.team-text{
+    color:var(--main-secondary-color) ;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em; 
+}
+/* <<<<<<<<<<<<<<< ФУТЕР>>>>>>>>>>>>>>>>>.. */
+
 .footer{
     background-color:#2F303A ;
-   
 }
 .footer-logo{
-    color: #FFFFFF;
+    color: var(--footer-first-color);
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
 }
 .footer .web{
-    color #2196F3 ;  
-
+    color: var(--footer-accent-color)  ;  
+    font-family: 'Raleway' sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em; 
 }
 .footer-adress{
-    color: #FFFFFF;
+    color: var(--footer-first-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .footer-adress:hover,
 .footer-adress:focus{
-    color:#2196F3 ;
+    color:var(--footer-accent-color) ;
 }
 
 .footer-contact{
-    color:  rgba(255, 255, 255, 0.6) ;
+    color:  var(--footer-secondary-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 .footer-contact:hover,
 .footer-contact:focus{
-    color:#2196F3 ;
+    color:var() ;
 }
+
+
+
+
+
+/* <<<<<<<<<<<<<<<ПОРТФОЛІО>>>>>>>>>>>>>>>>>.. */
+
+
+.page-item{
+    font-family:Roboto, Tahoma , sans-serif;
+    background-color: #F5F4FA;
+    color: var(--main-first-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    
+}
+.page-item:hover,
+.page-item:focus{
+    font-family:Roboto, Tahoma , sans-serif;
+    color: var(--main-hero-color);
+    background-color:#2196F3;
+}
+.page-title{
+    color: var(--main-first-color);
+    background-color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.page-text{
+    color: var(--main-text-color);
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
+
 
 
 /* 

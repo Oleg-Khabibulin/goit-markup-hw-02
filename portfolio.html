@@ -4,114 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Студия</title>
+    <title>Портфолио</title>
     <link rel="stylesheet" href="./css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body> 
     <!-- Шапка сайта -->
     <header class="heder" >
         <nav >
-            <a href="./index.html" class="heder-logo"> <span class="web">Web</span>Studio </a>
+            <a href="./index.html" class="heder-logo line"> <span class="web line">Web</span>Studio </a>
             <ul class="heder-nav list">
-                <li><a href="./index.html" class="link">Студия</a></li>
-                <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-                <li><a href="" class="link">Контакты</a></li>
+                <li><a href="./index.html" class="heder-link line">Студия</a></li>
+                <li><a href="./portfolio.html" class="heder-link line">Портфолио</a></li>
+                <li><a href="" class="heder-link line">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="contact list">  
-            <li><a href="mailto:info@devstudio.com" class="link">info@example.com</a></li>
-            <li><a href="tel:+380961111111" class="link">+38 096 111 11 11</a> </li>
+        <ul class="heder-contact list">  
+            <li><a href="mailto:info@devstudio.com" class="heder-link line">info@example.com</a></li>
+            <li><a href="tel:+380961111111" class="heder-link line">+38 096 111 11 11</a> </li>
 
         </ul>
        
     </header>
-    <main>
-        <h1>Проекты</h1>
-        <ul>
-            <li><a href="">Все</a></li>
-            <li><a href="">Веб-сайты</a></li>
-            <li><a href="">Приложения</a></li>
-            <li><a href="">Дизайн</a></li>
-            <li><a href="">Маркетинг</a></li>
+
+    <main >
+        <section class="page">
+            <h1 class="page-headline">Проекты</h1>
+        <ul class="page-list list">
+            <li > <button type="button" class="page-item line">Все</button></li>
+            <li ><button type="button" class="page-item line">Веб-сайты</button></li>
+            <li ><button type="button" class="page-item line">Приложения</button></li>
+            <li ><button type="button" class="page-item line">Дизайн</button></li>
+            <li ><button type="button" class="page-item line">Маркетинг</button></li>
         </ul>
-        <ul>
-            <li>
-                <a href="">
+        <ul class="page-aside list">
+            <li class="page-aside-item ">
+                <a href="" class="line">
                     <img src="./images/port-img.jpg" alt="Технокряк">
-                    <h2>Технокряк</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="page-title ">Технокряк</h2>
+                    <p  class="page-text ">Веб-сайт</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img1.jpg" alt="Постер New Orlean vs Golden Star">
-                    <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                    <p>Дизайн</p>
+                    <h2 class="page-title ">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                    <p class="page-text ">Дизайн</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img2.jpg" alt="Ресторан Seafood">
-                    <h2>Ресторан <span lang="en">Seafood</span></h2>
-                    <p>Приложение</p>
+                    <h2 class="page-title ">Ресторан <span lang="en">Seafood</span></h2>
+                    <p class="page-text ">Приложение</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img3.jpg" alt="Проект Prime">
-                    <h2>Проект <span lang="en">Prime</span></h2>
-                    <p>Маркетинг</p>
+                    <h2 class="page-title ">Проект <span lang="en">Prime</span></h2>
+                    <p class="page-text ">Маркетинг</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img4.jpg" alt="Проект Boxes">
-                    <h2>Проект <span lang="en">Boxes</span></h2>
-                    <p>Приложение</p>
+                    <h2 class="page-title ">Проект <span lang="en">Boxes</span></h2>
+                    <p class="page-text ">Приложение</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img5.jpg" alt="Inspiration has no Borders">
-                    <h2 lang="en">Inspiration has no Borders</h2>
-                    <p>Веб-сайт</p>
+                    <h2 class="page-title " lang="en">Inspiration has no Borders</h2>
+                    <p class="page-text ">Веб-сайт</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img6.jpg" alt="Издание Limited Edition">
-                    <h2>Издание <span lang="en" >Limited Edition</span></h2>
-                    <p>Дизайн</p>
+                    <h2 class="page-title ">Издание <span lang="en" >Limited Edition</span></h2>
+                    <p class="page-text ">Дизайн</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img7.jpg" alt="Проект LAB">
-                    <h2>Проект <span lang="en">LAB</span></h2>
-                    <p>Маркетинг</p>
+                    <h2 class="page-title ">Проект <span lang="en">LAB</span></h2>
+                    <p class="page-text ">Маркетинг</p>
                 </a>
             </li>
             <li>
-                <a href="">
+                <a href="" class="line">
                     <img src="./images/port-img8.jpg" alt="">
-                    <h2 lang="en">Growing Business</h2>
-                    <p>Приложение</p>
+                    <h2 class="page-title " lang="en">Growing Business</h2>
+                    <p class="page-text ">Приложение</p>
                 </a>
             </li>
         </ul>
-    </main>
+
+        </section>
+        
+    </main> 
 
  
 
  <footer class="footer">
-     <a href="WebStudio" class="logo"><span class="web">Web</span>Studio</a>
+     <a href="WebStudio" class="footer-logo line"><span class="web line">Web</span>Studio</a>
      <address >
-        <ul class="list">
-          <li class="adress"><a href="https://goo.gl/maps/LyTT8ztSWRN72aoT6" target="_blank" rel="noopener noreferrer nofollow" class="adress">г. Киев, пр-т
+        <ul class="footer-list list">
+          <li class="adress"><a href="https://goo.gl/maps/LyTT8ztSWRN72aoT6" target="_blank" rel="noopener noreferrer nofollow" class="footer-adress line">г. Киев, пр-т
               Леси Украинки, 26</a> </li>
-          <li ><a  href="mailto:info@devstudio.com" class="contact" >info@example.com</a> </li>
-          <li ><a href="tel:+380961111111" class="contact">+38 096 111 11 11</a> </li>
+          <li ><a  href="mailto:info@devstudio.com" class="footer-contact line" >info@example.com</a> </li>
+          <li ><a href="tel:+380961111111" class="footer-contact line" line>+38 096 111 11 11</a> </li>
         </ul>
       </address>
  </footer>
