@@ -1,6 +1,9 @@
 body{
-  font-family: Roboto, Tahoma , sans-serif;
-    color: #212121;
+    font-family: Roboto, sans-serif;
+    color:var(--heder-main-color) ;
+    font-size: 14px;
+    letter-spacing: 0.03em; 
+    background-color:var(--main-hero-color) ;
 }
 .list{
      list-style: none;
@@ -52,7 +55,7 @@ body{
 
 .heder-logo{
     color: var(--heder-main-color) ;
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway' ,sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -60,18 +63,22 @@ body{
 }
 .web{
     color:var(--heder-accent-color);
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway' ,sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em; 
 }
-
+.heder-link-main{
+    color:var(--heder-accent-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
 
 .heder-nav .heder-link{
     color: var(--heder-main-color) ;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -84,7 +91,6 @@ body{
 .heder-contact .heder-link{
     color: var(--heder-secondary-color);
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14px;
     letter-spacing: 0.02em; 
 }
@@ -105,11 +111,25 @@ body{
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+.hero-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
 .hero-btn{
     color: var(--main-hero-color);
     background-color:var(--main-btn-accent-color) ;
-    font-family:Roboto, Tahoma , sans-serif;
+    font-family:Roboto, sans-serif;
     cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 .hero-btn:hover{
     color: var(--main-btn-accent-color);
@@ -129,10 +149,7 @@ body{
 }
 .skills-text{
     color: var(--main-secondary-color) ;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    letter-spacing: 0.03em;
 }
 /* <<<<<<<<<<<<<<< КОНТЕНТ>>>>>>>>>>>>>>>>>.. */
 
@@ -144,7 +161,6 @@ body{
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em; 
 }
 /* <<<<<<<<<<<<<<< КОМАНДА>>>>>>>>>>>>>>>>>.. */
 
@@ -167,7 +183,6 @@ body{
 }
 .team-text{
     color:var(--main-secondary-color) ;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     text-align: center;
@@ -184,7 +199,6 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em; 
 }
 .footer .web{
     color: var(--footer-accent-color)  ;  
@@ -192,15 +206,11 @@ body{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em; 
 }
 .footer-adress{
     color: var(--footer-first-color);
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 .footer-adress:hover,
 .footer-adress:focus{
@@ -210,10 +220,7 @@ body{
 .footer-contact{
     color:  var(--footer-secondary-color);
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
 }
 .footer-contact:hover,
 .footer-contact:focus{
@@ -256,10 +263,8 @@ body{
 .page-text{
     color: var(--main-text-color);
     background-color: #FFFFFF;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
 }
 
 
